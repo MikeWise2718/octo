@@ -1,5 +1,7 @@
 from jax.lax import conv
 import jax.random as jrd
+import jax
+print(jax.devices())
 
 rng = jrd.PRNGKey(0)
 x = jrd.truncated_normal(rng, -1, 1, (1, 1, 28, 28))

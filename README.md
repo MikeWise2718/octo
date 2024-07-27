@@ -1,4 +1,10 @@
 # New Readme
+- `conda activate oct12`
+- `source xla-env1.sh`
+- `python minjax.py` 
+   - should show a CUDA device, not a CPU device
+- `Now run the finetuning example`
+- `Will crash after about 1 hour`
 
 
 # Octo
